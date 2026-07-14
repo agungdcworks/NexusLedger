@@ -1,0 +1,26 @@
+# NexusLedger Logos and assets
+*.psd
+*.xcf
+*.ai
+
+# Upload directory (user-uploaded files during testing)
+uploads/*
+!uploads/.gitkeep
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+
+# Composer (not used but prevent accidents)
+vendor/
